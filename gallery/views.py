@@ -1,0 +1,20 @@
+from django.shortcuts import render
+from .models import Collection, Photo
+
+# Create your views here.
+def index(request):
+    return render(request, 'index.html')
+
+def collections(request):
+    collections = Collection.objects.all()
+    return render(request, 'collections.html', {'collections': collections})
+
+def show_collection(request, collection_id):
+    collection = Collection.get(id=collection_id)
+    return render(request, 'show_collection.html', {'collection': collection})
+
+def about(request):
+    return render(request, 'about.html')
+
+def contact(request):
+    return render(request, 'contact.html')

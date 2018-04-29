@@ -1,0 +1,27 @@
+$color-one: #1B3260;
+$color-two: #FF5A5F;
+$color-three: #087E8B;
+$color-four: #F5F5F5;
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand";
+}
+
+nav {
+    background-color: $color-one;
+}
+
+footer {
+    background-color: $color-two;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 2em;
+}
+
+.card {
+    display: inline-block;
+    margin: 0.5em;
+    width: 400px;
+}

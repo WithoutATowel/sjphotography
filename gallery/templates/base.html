@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SJS</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index">Home</a></li>
+                    <li><a href="collections">Collections</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        {% block content %}
+        {% endblock %}
+        <footer>&copy; Copyright SJ Photography 2018</footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="{% static 'app.js' %}"></script>
+    </body>
+</html>

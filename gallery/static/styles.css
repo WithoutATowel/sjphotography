@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand"; }
+
+nav {
+  background-color: #1B3260; }
+
+footer {
+  background-color: #FF5A5F;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 2em; }
+
+.card {
+  display: inline-block;
+  margin: 0.5em;
+  width: 400px; }
+
+/*# sourceMappingURL=styles.css.map */
