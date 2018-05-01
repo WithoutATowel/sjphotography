@@ -1,16 +1,23 @@
 $color-one: #1B3260;
 $color-two: #FF5A5F;
-$color-three: #087E8B;
+$color-three: #4c4f54;
 $color-four: #F5F5F5;
 
 body {
     padding: 0;
     margin: 0;
     font-family: "Quicksand";
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 nav {
     background-color: $color-one;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 footer {
@@ -44,4 +51,10 @@ footer {
 .modal {
     outline: none;
     top: 16% !important;
+}
+
+.btn {
+    background-color: $color-three;
+    color: white;
+    font-weight: bold;
 }

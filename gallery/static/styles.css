@@ -1,10 +1,16 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Quicksand"; }
+  font-family: "Quicksand";
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 nav {
   background-color: #1B3260; }
+
+main {
+  flex: 1 0 auto; }
 
 footer {
   background-color: #FF5A5F;
@@ -32,5 +38,10 @@ footer {
 .modal {
   outline: none;
   top: 16% !important; }
+
+.btn {
+  background-color: #4c4f54;
+  color: white;
+  font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */
