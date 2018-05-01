@@ -10,8 +10,9 @@ def collections(request):
     return render(request, 'collections.html', {'collections': collections})
 
 def show_collection(request, collection_id):
-    collection = Collection.get(id=collection_id)
-    return render(request, 'show_collection.html', {'collection': collection})
+    photos = Photo.objects.filter(collection_id=collection_id)
+    collection = Collection.objects.get(id=collection_id)
+    return render(request, 'show_collection.html', {'photos': photos, 'collection': collection})
 
 def about(request):
     return render(request, 'about.html')

@@ -2,5 +2,14 @@
 {% load staticfiles %}
 
 {% block content %}
-    <h1>Show collection yeaaaah</h1>
+    <div class="container">
+        <h1>{{ collection.name }}</h1>
+        <p>{{ collection.description }}</p>
+        {% for photo in photos %}
+            <a href="#modal{{ photo.id }}" class="modal-trigger">
+                <img class="photo-thumb" src="{{ photo.image.url }}" />
+            </a>
+            <img id="modal{{ photo.id }}" class="modal" src="{{ photo.image.url }}" />
+        {% endfor %}
+    </div>
 {% endblock %}

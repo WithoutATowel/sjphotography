@@ -20,8 +20,28 @@ footer {
     font-size: 2em;
 }
 
+.container {
+    margin: 50px;
+    width: 100%;
+}
+
+.card-container {
+    display: inline-block;
+}
+
 .card {
     display: inline-block;
     margin: 0.5em;
-    width: 400px;
+    width: 350px;
+    overflow: hidden !important;
+}
+
+.photo-thumb {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.modal {
+    outline: none;
+    top: 16% !important;
 }
