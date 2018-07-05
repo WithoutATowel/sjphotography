@@ -25,7 +25,7 @@ SECRET_KEY = '&3a@%!*@y%rawyv7#vkk=_fy!*1nyy+rw!bc2-2tew8s4k2_&n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.2sjspencer.net']
+ALLOWED_HOSTS = ['www.2sjspencer.net', 'www.2sjspencer.com.herokudns.com']
 
 # Application definition
 
