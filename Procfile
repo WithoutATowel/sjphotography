@@ -1,0 +1,1 @@
+web: gunicorn sjspencer.wsgi --log-file -
