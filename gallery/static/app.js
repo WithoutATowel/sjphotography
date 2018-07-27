@@ -3,6 +3,8 @@ $(document).ready(function(){
         opacity: 0.9,
         startingTop: '10%'
     });
+    $('.sidenav').sidenav();
+    console.log("HALLO");
     $(document).on("keydown", scrollPictures);
     $(document).on("contextmenu", preventImageRightClick);
 
