@@ -4,7 +4,6 @@ $(document).ready(function(){
         startingTop: '10%'
     });
     $('.sidenav').sidenav();
-    console.log("HALLO");
     $(document).on("keydown", scrollPictures);
     $(document).on("contextmenu", preventImageRightClick);
 
