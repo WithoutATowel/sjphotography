@@ -39,7 +39,7 @@ termcolor==1.1.0
 traitlets==4.3.2
 urllib3==1.22
 wcwidth==0.1.7
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 whitenoise==3.3.1
 absl-py==0.1.13
 appnope==0.1.0
@@ -89,5 +89,5 @@ termcolor==1.1.0
 traitlets==4.3.2
 urllib3==1.22
 wcwidth==0.1.7
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 whitenoise==3.3.1
