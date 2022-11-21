@@ -34,7 +34,7 @@ requests==2.18.4
 simplegeneric==0.8.1
 six==1.11.0
 tensorboard==1.7.0
-tensorflow==1.7.0
+tensorflow==2.9.3
 termcolor==1.1.0
 traitlets==4.3.2
 urllib3==1.22
@@ -84,7 +84,7 @@ s3transfer==0.1.13
 simplegeneric==0.8.1
 six==1.11.0
 tensorboard==1.7.0
-tensorflow==1.7.0
+tensorflow==2.9.3
 termcolor==1.1.0
 traitlets==4.3.2
 urllib3==1.22
