@@ -2,7 +2,7 @@ absl-py==0.1.13
 appnope==0.1.0
 astor==0.6.2
 bleach==1.5.0
-certifi==2018.1.18
+certifi==2022.12.7
 chardet==3.0.4
 decorator==4.2.1
 dj-database-url==0.5.0
@@ -47,7 +47,7 @@ astor==0.6.2
 bleach==1.5.0
 boto3==1.7.63
 botocore==1.10.63
-certifi==2018.1.18
+certifi==2022.12.7
 chardet==3.0.4
 decorator==4.2.1
 dj-database-url==0.5.0
